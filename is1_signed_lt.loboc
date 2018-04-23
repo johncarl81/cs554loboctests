@@ -4,6 +4,7 @@
 //tlc case: 1=0,1
 //tlc case: 0=1,0
 //tlc case: 1=-1,0
+//tlc case: 0=-1,-1
 //tlc case: 0=0x7fffffff,0xffffffff
 //tlc case: 1=0xffffffff,0x7fffffff
 //tlc case: 0=0xffffffff,0xffffffff
