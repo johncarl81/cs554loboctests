@@ -9,5 +9,6 @@
 //tlc case: 0=0x7fffffff,0xffffffff
 //tlc case: 1=0xffffffff,0x7fffffff
 //tlc case: 1=0xffffffff,0xffffffff
+//tlc case: 0=0x00000000,0xffffffff
 signed a, b;
 a <= b;
