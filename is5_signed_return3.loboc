@@ -1,0 +1,12 @@
+// ISEQ5: Basic function call
+//tlc type: run
+//tlc case: 84=40,2
+//tlc case: 0=1,-1
+main() {
+  value() + value();
+}
+
+value() {
+  signed a, b;
+  a + b;
+}

@@ -1,0 +1,15 @@
+// ISEQ5: Calculates the nth fibonacci number
+//tlc type: run
+//tlc case: 6=54,24
+main() {
+  signed x, y;
+  gcd(x, y);
+}
+
+gcd(signed a, signed b) {
+  if(a == 0)
+    b;
+  else {
+    gcd(b, (a - ((a / b) * b)));
+  }
+}

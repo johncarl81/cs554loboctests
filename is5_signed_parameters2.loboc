@@ -1,0 +1,12 @@
+// ISEQ5: Basic function call with parameters
+//tlc type: run
+//tlc case: 10=1,2,3,4
+//tlc case: 0=1,-1
+main() {
+  signed a,b,c,d;
+  add(add(a, b), add(c, d));
+}
+
+add(signed a, signed b) {
+  a + b;
+}

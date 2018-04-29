@@ -1,0 +1,15 @@
+// ISEQ5: Recursive function call
+//tlc type: run
+//tlc case: 10=4
+//tlc case: 5050=100
+main() {
+  signed input;
+  sum(input);
+}
+
+sum(signed n) {
+  if(n < 0)
+    0;
+  else
+    n + sum(n-1);
+}
