@@ -2,12 +2,12 @@
 //tlc type: run
 //tlc case: 10=4
 //tlc case: 5050=100
-main() {
+signed main() {
   signed input;
   sum(input);
 }
 
-sum(signed n) {
+signed sum(signed n) {
   if(n < 0)
     0;
   else

@@ -1,10 +1,10 @@
 // ISEQ5: Basic function call
 //tlc type: run
 //tlc case: 42=0
-main() {
+signed main() {
   value();
 }
 
-value() {
+signed value() {
   42;
 }

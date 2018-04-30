@@ -1,0 +1,20 @@
+// ISEQ5: Signed greater than
+//tlc type: run
+//tlc case: 1=0,1
+//tlc case: 0=1,0
+//tlc case: 1=-1,0
+//tlc case: 1=-5,1
+//tlc case: 0=-1,-1
+//tlc case: 0=0x7fffffff,0xffffffff
+//tlc case: 1=0xffffffff,0x7fffffff
+//tlc case: 0=0xffffffff,0xffffffff
+//tlc case: 0=0x00000000,0xffffffff
+signed main() {
+  signed a, b;
+
+  passThrough(a) < passThrough(b);
+}
+
+signed passThrough(signed value) {
+  value;
+}

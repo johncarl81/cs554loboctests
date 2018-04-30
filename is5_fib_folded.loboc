@@ -1,11 +1,11 @@
 // ISEQ5: Calculates the nth fibonacci number
 //tlc type: run
 //tlc case: 21=0
-main() {
+signed main() {
   fib(7);
 }
 
-fib(signed n) {
+signed fib(signed n) {
   if(n < 2)
     1;
   else

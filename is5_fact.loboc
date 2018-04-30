@@ -8,12 +8,12 @@
 //tlc case: 120=5
 //tlc case: 720=6
 //tlc case: 5040=7
-main() {
+signed main() {
   signed n;
   fact(n);
 }
 
-fact(signed n) {
+signed fact(signed n) {
   if(n < 1)
     1;
   else
