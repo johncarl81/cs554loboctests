@@ -9,12 +9,9 @@
 //tlc case: 1=0xffffffff,0x7fffffff
 //tlc case: 0=0xffffffff,0xffffffff
 //tlc case: 0=0x00000000,0xffffffff
-signed main() {
-  signed a, b;
-
-  passThrough(a) < passThrough(b);
-}
-
-signed passThrough(signed value) {
+function signed passThrough(signed value) {
   value;
 }
+signed a, b;
+
+passThrough(a) < passThrough(b);

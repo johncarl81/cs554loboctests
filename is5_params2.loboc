@@ -1,0 +1,13 @@
+// ISEQ5: Signed greater than
+//tlc type: run
+//tlc case: 1=t,t,t,t,t
+//tlc case: 0=f,t,t,t,t
+//tlc case: 0=t,f,t,t,t
+//tlc case: 0=t,t,f,t,t
+//tlc case: 0=t,t,t,f,t
+//tlc case: 0=t,t,t,t,f
+function bool and(bool a0, bool a1, bool a2, bool a3, bool a4) {
+  a0 && a1 && a2 && a3 && a4;
+}
+bool[5] a;
+and(a[0], a[1], a[2], a[3], a[4]);

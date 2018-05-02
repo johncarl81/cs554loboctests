@@ -2,14 +2,11 @@
 //tlc type: run
 //tlc case: 10=4
 //tlc case: 5050=100
-signed main() {
-  signed input;
-  sum(input);
-}
-
-signed sum(signed n) {
+function signed sum(signed n) {
   if(n < 0)
     0;
   else
     n + sum(n-1);
 }
+signed input;
+sum(input);

@@ -1,0 +1,9 @@
+// ISEQ5: Signed greater than
+//tlc type: run
+//tlc case: 15=0,1,2,3,4,5
+//tlc case: 75=10,11,12,13,14,15
+function unsigned sum(unsigned a0, unsigned a1, unsigned a2, unsigned a3, unsigned a4, unsigned a5) {
+  a0 + a1 + a2 + a3 + a4 + a5;
+}
+unsigned[6] a;
+sum(a[0], a[1], a[2], a[3], a[4], a[5]);
