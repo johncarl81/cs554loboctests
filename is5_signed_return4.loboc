@@ -2,11 +2,8 @@
 //tlc type: run
 //tlc case: 43=40,2
 //tlc case: 1=1,-1
-signed main() {
-  1 + value();
-}
-
-signed value() {
+function signed value() {
   signed a, b;
   a + b;
 }
+1 + value();

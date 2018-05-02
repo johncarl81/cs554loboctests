@@ -1,0 +1,9 @@
+// ISEQ5: Basic function call with parameters
+//tlc type: run
+//tlc case: 15=0,1,2,3,4,5
+//tlc case: 21=1,2,3,4,5,6
+function signed addUp(signed a0, signed a1, signed a2, signed a3, signed a4, signed a5) {
+  a0 + a1 + a2 + a3 + a4 + a5;
+}
+signed[6] a;
+addUp(a[0], a[1], a[2], a[3], a[4], a[5]);

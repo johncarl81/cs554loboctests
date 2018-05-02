@@ -25,11 +25,7 @@
 //tlc case: -1=22,0,2,3,5,9,12,15,18,20,23
 //tlc case: 9=23,0,2,3,5,9,12,15,18,20,23
 //tlc case: -1=24,0,2,3,5,9,12,15,18,20,23
-signed main() {
-  binarySearch(0, 9);
-}
-
-signed binarySearch(signed start, signed end) {
+function signed binarySearch(signed start, signed end) {
   signed target;
   signed[10] values;
   signed middle;
@@ -48,3 +44,4 @@ signed binarySearch(signed start, signed end) {
     -1;
   }
 }
+binarySearch(0, 9);

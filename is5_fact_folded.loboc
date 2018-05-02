@@ -1,13 +1,10 @@
 // ISEQ5: Calculates n!
 //tlc type: run
 //tlc case: 5040=0
-signed main() {
-  fact(7);
-}
-
-signed fact(signed n) {
+function signed fact(signed n) {
   if(n < 1)
     1;
   else
     n * fact(n - 1);
 }
+fact(7);

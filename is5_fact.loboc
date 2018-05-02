@@ -8,14 +8,11 @@
 //tlc case: 120=5
 //tlc case: 720=6
 //tlc case: 5040=7
-signed main() {
-  signed n;
-  fact(n);
-}
-
-signed fact(signed n) {
+function signed fact(signed n) {
   if(n < 1)
     1;
   else
     n * fact(n - 1);
 }
+signed n;
+fact(n);
