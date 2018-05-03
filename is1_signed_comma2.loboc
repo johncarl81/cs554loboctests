@@ -1,7 +1,0 @@
-// ISEQ1: Comma increment
-//tlc type: run
-//tlc case: 2=0,1
-//tlc case: 3=0,2
-signed a,b;
-(a,b)++;
-b;
